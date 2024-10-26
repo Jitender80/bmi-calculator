@@ -1,0 +1,157 @@
+/* For index.html page */
+body.index-page {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    width: 600px;
+    object-fit: contain;
+}
+
+h1 {
+    margin: 20px 0;
+    color: #333;
+    text-align: center;
+    font-weight: bold;
+}
+
+form {
+    text-align: center;
+    width: 100%;
+}
+
+form input {
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    width: 320px;
+}
+
+form button {
+    padding: 12px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 320px;
+}
+
+form button:hover {
+    background-color: #f3f3f3;
+}
+
+/* For Content.html (Diet Planner) */
+body.diet-planner-page {
+    background-image: url('https://t3.ftcdn.net/jpg/02/44/46/90/360_F_244469076_z0YtoLmu7tdroa0aw8TeTvYpHo7ZLW5A.jpg'); 
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color:#fff;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    width: 420px;
+    max-width: 100%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+.bmi-form label {
+    margin-bottom: 8px;
+    color: #333;
+    font-weight: 500;
+}
+
+.bmi-form input, .bmi-form select {
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    width: 85%;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    padding: 12px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#result, #diet-plan {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+}
+
+
+
+/*diet-panl- page-css*/
+body.diet-plan-page {
+    background: url('https://t3.ftcdn.net/jpg/05/67/07/22/360_F_567072266_I8QZdK2f5SG3CiCIK74xN2sUk0HKUqAO.jpg') no-repeat center center fixed;
+    background-size: cover;
+    
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;  
+    justify-content: center;  
+    height: 100vh; 
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.9);  
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    max-width: 100%;
+    text-align: center;
+}

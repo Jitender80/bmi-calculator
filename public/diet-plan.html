@@ -1,0 +1,31 @@
+<!-- diet-plan.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Diet Plan</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body class="diet-plan-page"> <!-- Add this class to apply the specific background -->
+    <div class="container">
+        <h1>Your BMI and Diet Plan</h1>
+        <div id="bmi-result"></div>
+        <div id="diet-plan-content"></div>
+        <button onclick="goBack()">Go Back</button>
+    </div>
+
+    <script>
+        const bmi = localStorage.getItem("bmi");
+        const status = localStorage.getItem("status");
+        const dietPlan = localStorage.getItem("dietPlan");
+
+        document.getElementById("bmi-result").innerHTML = `Your BMI is ${bmi} (${status})`;
+        document.getElementById("diet-plan-content").innerHTML = dietPlan;
+
+        function goBack() {
+            window.location.href = "index.html";
+        }
+    </script>
+</body>
+</html>
